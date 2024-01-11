@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./index.css"></link>  
+    <title>Proyecto Cristina</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-......" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <!--Menú-->
+    <div class="container-fluid">
+      <div class="collapse collapse-horizontal col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2 z-3 p-3 fixed-top" id="menu">
+        <div class="navbar-nav">
+          <div class="nav-item">
+            <div class="text-center" id="lista-perfil"><img src="PROYECTO/profile-img.jpeg" id="foto-perfil"></div>
+            <div class="text-center" id="lista-nombre"><b>Alex Smith</b></div>
+            <div class="text-center" id="lista-iconos">
+              <img src="icons/menu/twitter.png" id="twitter">
+              <img src="icons/menu/facebook.png" id="facebook">
+              <img src="icons/menu/instagram.png" id="instagram">
+              <img src="icons/menu/skype.png" id="skype">
+              <img src="icons/menu/linkedin.png" id="linkedin">
+            </div>
+    
+            <div class="text-justify" id="lista-home"><a href="#fondo"><img src="icons/menu/home.png" id="img-home" class="m-1 mt-0"> Home</div></a>
+            <div class="text-justify" id="lista-about"><a href="#about"><img src="icons/menu/about.png" id="img-about" class="m-1 mt-0"> About</div></a>
+            <div class="text-justify" id="lista-resume"><a href="#resume"><img src="icons/menu/resume.png" id="img-resume" class="m-1 mt-0"> Resume</div></a>
+            <div class="text-justify" id="lista-portfolio"><a href="#portfolio"><img src="icons/menu/portfolio.png" id="img-portfolio" class="m-1 mt-0"> Portfolio</div></a>
+            <div class="text-justify" id="lista-services"><a href="#services"><img src="icons/menu/services.png" id="img-services" class="m-1 mt-0"> Services</div></a>
+            <div class="text-justify" id="lista-contact"><a href="#contacto"><img src="icons/menu/contact.png" id="img-contact" class="m-1 mt-0"> Contact</div></a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>    
+    <!--Fin Menú-->
+
+    <!--Container-->
+    <div class="container-fluid" id="fondo">
+
+      <!--Navbar (para abrir y cerrar menú)-->
+      <nav class="navbar">
+        <div class="container-fluid d-flex justify-content-end fixed-top">
+          <input type="checkbox" id="toggleMenu" class="d-none">
+          <label for="toggleMenu">
+            <img src="icons/menu/hamburguesa.png" alt="Burguer" id="burguer" data-bs-toggle="collapse" data-bs-target="#menu" class="d-xl-none">
+            <img src="icons/menu/cerrar.png" id="cerrar" data-bs-toggle="collapse" data-bs-target="#menu" class="d-xl-none">
+          </label>
+        </div>
+      </nav>
+      <!--Fin Navbar (para abrir y cerrar menú)-->
+
+      <!--Texto-->
+      <div class="container">
+        <div class="row" id="texto">
+          <div class="col text-justify offset-sm-3 offset-md-4 offset-lg-4 offset-xl-4">
+          <div id="nombre"><b>Alex Smith</b></div>
+          <div id="profesion">I'm <span class=sub>Developer</span></div>
+          </div>
+        </div>
+      </div>  
+      </div>
+      <!--Fin Texto-->
+
+     
+     <!--About-->
+     <div class="container-fluid">
+      <div class="row offset-md-1 offset-lg-1 offset-xl-2" id="about">
+        <h2 id="t1_about"><b>About</b><div class="barra1"></div></h2>
+       
+        <p id="texto1_about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          <img src="PROYECTO/profile-img.jpeg" id="foto_about" class="img-fluid">
+        </div>
+
+
+        <div class="col-12 col-sm-12 col-md-11 col-lg-8 col-xl-8">
+          <h2 id="t2_about">UI/UX Designer & Web Developer.</h2>
+          <p id="texto2_about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         
+          <div class="row">
+            <div class="col-lg-6 col-xl-6">
+              <ul class="list-unstyled p-0">
+                <li id="l1"><span id="ss1">></span> <b>Birthday:</b> <span id="s1">1 May 1995</span></li>
+                <li id="l2"><span id="ss2">></span> <b>Website:</b> <span id="s2">www.example.com</span></li>
+                <li id="l3"><span id="ss3">></span> <b>Phone:</b> <span id="s3">+123 456 789</span></li>
+                <li id="l4"><span id="ss4">></span> <b>City:</b> <span id="s4">New York, USA</span></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-6 col-xl-6">
+              <ul class="list-unstyled p-0">
+                <li id="l5"><span id="ss5">></span> <b>Age:</b> <span id="s5">30</span></li>
+                <li id="l6"><span id="ss6">></span> <b>Degree:</b> <span id="s6">Master</span></li>
+                <li id="l7"><span id="ss7">></span> <b>PhEmailOne:</b> <span id="s7">email@example.com</span></li>
+                <li id="l8"><span id="ss8">></span> <b>Freelance:</b> <span id="s8">Available</span></li>
+              </ul>
+            </div>
+          </div>
+          
+          <p id="texto3_about">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
+        </div>
+      </div>
+    <!--Fin About-->
+
+
+    <!--Facts-->
+    <div class="row offset-md-1 offset-lg-1 offset-xl-2" id="facts">
+      <h2 id="t1_facts"><b>Facts</b><div class="barra1"></div></h2>
+      <p id="texto2_facts">We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
+      
+      <div class="col-3 col-md-2 col-lg-1 text-justify d-flex justify-content-end" id="dimg_fact1">
+        <i class="bi bi-emoji-smile"></i>
+      </div>
+
+      <div class="col-9 col-md-4 col-lg-2 text-justify" id="fact1">
+        <div id="numero1"><b>232</b></div>
+        <div id="clientes"><b>Happy Clients</b> consequer quae</span></div>
+      </div>
+
+
+      <div class="col-3 col-md-2 col-lg-1 text-justify d-flex justify-content-end" id="dimg_fact2">
+        <i class="bi bi-journal-richtext"></i>
+        </div>
+  
+        <div class="col-9 col-md-4 col-lg-2 text-justify" id="fact2">
+          <div id="numero1"><b>521</b></div>
+          <div id="clientes"><b>Projects</b> adipisci atque cum quia aut</span></div>
+        </div>
+
+
+        <div class="col-3 col-md-2 col-lg-1 text-justify d-flex justify-content-end" id="dimg_fact3">
+          <i class="bi bi-headset"></i>
+          </div>
+    
+          <div class="col-9 col-md-4 col-lg-2 text-justify" id="fact3">
+            <div id="numero1"><b>1453</b></div>
+            <div id="clientes"><b>Hours Of Support</b> aut commodi quaerat</span></div>
+        </div>
+
+          <div class="col-3 col-md-2 col-lg-1 text-justify d-flex justify-content-end" id="dimg_fact4">
+            <i class="bi bi-people-fill"></i>
+            </div>
+      
+            <div class="col-9 col-md-4 col-lg-2 text-justify" id="fact4">
+              <div id="numero1"><b>32</b></div>
+              <div id="clientes"><b>Hard Workers</b> rerum asperiores dolor</span></div>
+            </div>
+        </div>
+      
+    <!--Fin Facts-->
+
+
+    <!--Skills-->
+    <div class="row offset-md-1 offset-lg-1 offset-xl-2" id="skills">
+      <h2 id="t1_skills"><b>Skills</b><div class="barra1"></div></h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      
+      
+      
+      <div class="col-12 col-lg-6">
+        <div><span class="texto-barra"><b>HTML</b></span>
+        <span class="porcentaje"><b>100%</b></span></div>
+     
+        <div class="progress progress1 w-100" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100">
+          <div class="progress-bar progress-bar1" style="width: 100%"></div></div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div><span class="texto-barra"><b>CSS</b></span>
+        <span class="porcentaje"><b>90%</b></span></div>
+     
+        <div class="progress progress1 w-100" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100">
+          <div class="progress-bar progress-bar1" style="width: 90%"></div></div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div><span class="texto-barra"><b>JAVASCRIPT</b></span>
+        <span class="porcentaje"><b>75%</b></span></div>
+     
+        <div class="progress progress1 w-100" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100">
+          <div class="progress-bar progress-bar1" style="width: 75%"></div></div>
+      </div>
+
+
+      <div class="col-12 col-lg-6">
+        <div><span class="texto-barra"><b>PHP</b></span>
+        <span class="porcentaje"><b>80%</b></span></div>
+     
+        <div class="progress progress1 w-100" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100">
+          <div class="progress-bar progress-bar1" style="width: 80%"></div></div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div><span class="texto-barra"><b>WORDPRESS/CMS</b></span>
+        <span class="porcentaje"><b>90%</b></span></div>
+     
+        <div class="progress progress1 w-100" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100">
+          <div class="progress-bar progress-bar1" style="width: 90%"></div></div>
+      </div>
+
+
+      <div class="col-12 col-lg-6">
+        <div><span class="texto-barra"><b>PHOTOSHOP</b></span>
+        <span class="porcentaje"><b>55%</b></span></div>
+     
+        <div class="progress progress2 w-100" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100">
+          <div class="progress-bar progress-bar1" style="width: 55%"></div></div>
+      </div>
+    </div>
+    <!--Fin Skills-->
+
+
+
+    <!--Resume-->
+    <div class="row offset-md-1 offset-lg-1 offset-xl-2" id="resume">
+      <h2 id="t1_resume"><b>Resume</b><div class="barra1"></div></h2>
+      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    
+      <div class="col-lg-6">
+        <h3><b>Sumary</b></h3>
+
+        
+        <div class="resume1 ps-4">
+          <div class="circulo"></div>
+          <h4 id="rem1"><b>ALEX SMITH</b></h4>
+          <em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em>
+          <ul class="mt-3">
+            <li class="mt-2">Portland par 127,Orlando, FL</li>
+            <li class="mt-2">(123) 456-7891</li>
+            <li class="mt-2">alice.barkley@example.com</li>
+          </ul>
+        </div>
+
+      <h3><b>Education</b></h3>
+        <div class="resume1 ps-4">
+          <div class="circulo"></div>
+          <h4 id="rem1"><b>MASTER OF FINE ARTS & GRAPHIC DESIGN</b></h4>
+          <h5 id="fech"><b>2015-2016</b></h5>
+          <p class="mt-2"><em>Rochester Institute of Technology, Rochester, NY</em></p>
+          <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+
+          <h4 id="rem1"><b>BACHELOR OF FINE ARTS & GRAPHIC DESIGN</b></h4>
+          <h5 id="fech"><b>2010-2014</b></h5>
+          <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+          <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+        </div>
+      </div>
+    
+      <div class="col-lg-6">
+        <h3><b>Professional Experience</b></h3>
+
+        <div class="resume1 ps-4">
+          <div class="circulo2"></div>
+          <h4 id="rem1"><b>SENIOR GRAPHIC DESIGN SPECIALIST</b></h4>
+          <h5 id="fech"><b>2019-PRESENT</b></h5>
+          <p class="mt-2"><em>Experion, New York, NY </em></p>
+          <ul class="mt-2">
+            <li class="mt-2">Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+            <li class="mt-2">Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+            <li class="mt-2">Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+            <li class="mt-2">Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+          </ul>
+
+          <div class="circulo2"></div>
+          <h4 id="rem1"><b>GRAPHIC DESIGN SPECIALIST</b></h4>
+          <h5 id="fech"><b>2017-2018</b></h5>
+          <p class="mt-2"><em>Stepping Stone Advertising, New York, NY</em></p>
+          <ul class="mt-2">
+            <li class="mt-2">Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+            <li class="mt-2">Managed up to 5 projects or tasks at a given time while under pressure</li>
+            <li class="mt-2">Recommended and consulted with clients on the most appropriate graphic design</li>
+            <li class="mt-2">Created 4+ design presentations and proposals a month for clients and account managers</li>
+          </ul>
+
+        </div>
+    
+    </div>
+    </div>
+    <!--Fin Resume-->
+
+   
+
+
+    <!--Portfolio-->
+    <div class="row offset-md-1 offset-lg-1 offset-xl-2" id="portfolio">
+      <h2 id="t1_portfolio" class="mt-3"><b>Portfolio</b><div class="barra1"></div></h2>
+      <p class="mb-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      
+      <div class="col-lg-12 d-none d-xl-flex justify-content-center">
+        <ul class="lista-portfolio">
+          <li class="filter">ALL</li>
+          <li class="filter">APP</li>
+          <li class="filter">CARD</li>
+          <li class="filter">WEB</li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <img src="PROYECTO/portfolio/portfolio-1.jpeg" id="port1" class="img-fluid mb-4">
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <img src="PROYECTO/portfolio/portfolio-2.jpeg" id="port1" class="img-fluid mb-4">
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <img src="PROYECTO/portfolio/portfolio-3.jpeg" id="port1" class="img-fluid mb-4">
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <img src="PROYECTO/portfolio/portfolio-4.jpeg" id="port1" class="img-fluid mb-4">
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <img src="PROYECTO/portfolio/portfolio-5.jpeg" id="port1" class="img-fluid mb-4">
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <img src="PROYECTO/portfolio/portfolio-6.jpeg" id="port1" class="img-fluid mb-4">
+      </div>
+
+
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <img src="PROYECTO/portfolio/portfolio-7.jpeg" id="port1" class="img-fluid mb-4">
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+        <img src="PROYECTO/portfolio/portfolio-8.jpeg" id="port1" class="img-fluid mb-4">
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+      <img src="PROYECTO/portfolio/portfolio-9.jpeg" id="port1" class="img-fluid mb-4">
+      </div>
+    
+    </div>
+    <!--Fin Portfolio-->
+
+
+    <!--Services-->
+     <div class="row offset-md-1 offset-lg-1 offset-xl-2 mt-4" id="services">
+      <h2 id="t1_servi"><b>Services</b> <div class="barra1"></div></h2>
+      <p id="texto2_servi">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      
+      <div class="col-2 col-md-1 col-lg-1 text-justify d-flex justify-content-end" id="dimg_ser1">
+        <i class="bi bi-briefcase"></i>
+      </div>
+
+      <div class="col-10 col-md-5 col-lg-3 text-justify" id="fact1">
+        <div><b>Lorem inpsum</b></div>
+        <p class="tser mb-4 mt-2">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</span></p>
+      </div>
+
+
+      <div class="col-2 col-md-1 col-lg-1 text-justify d-flex justify-content-end" id="dimg_ser1">
+        <i class="bi bi-card-checklist"></i>
+      </div>
+
+      <div class="col-10 col-md-5 col-lg-3 text-justify" id="fact1">
+        <div><b>Dolor Sitema</b></div>
+        <p class="tser mb-4 mt-2">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</span></p>
+      </div>
+
+
+
+      <div class="col-2 col-md-1 col-lg-1 text-justify d-flex justify-content-end" id="dimg_ser1">
+        <i class="bi bi-bar-chart"></i>
+      </div>
+
+      <div class="col-10 col-md-5 col-lg-3 text-justify" id="fact1">
+        <div><b>Sed ut perspiciatis</b></div>
+        <p class="tser mb-4 mt-2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</span></p>
+      </div>
+
+
+
+      <div class="col-2 col-md-1 col-lg-1 text-justify d-flex justify-content-end" id="dimg_ser1">
+        <i class="bi bi-binoculars"></i>
+      </div>
+
+      <div class="col-10 col-md-5 col-lg-3 text-justify" id="fact1">
+        <div><b>Magni Dolores</b></div>
+        <p class="tser mb-4 mt-2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</span></p>
+      </div>
+
+
+
+      <div class="col-2 col-md-1 col-lg-1 text-justify d-flex justify-content-end" id="dimg_ser1">
+        <i class="bi bi-brightness-high"></i>
+      </div>
+
+      <div class="col-10 col-md-5 col-lg-3 text-justify" id="fact1">
+        <div><b>Nemo Enim</b></div>
+        <p class="tser mb-4 mt-2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</span></p>
+      </div>
+
+
+
+      <div class="col-2 col-md-1 col-lg-1 text-justify d-flex justify-content-end" id="dimg_ser1">
+        <i class="bi bi-calendar4-week"></i>
+      </div>
+
+      <div class="col-10 col-md-5 col-lg-3 text-justify" id="fact1">
+        <div><b>Eiusmod Tempor</b></div>
+        <p class="tser mb-4 mt-2">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</span></p>
+      </div>
+      </div>
+    <!--Fin Services-->
+
+
+    <!--Testimonios-->
+    <div class="row offset-md-1 offset-lg-1 offset-xl-2 mt-4 d-xl-none" id="testimonios">
+      <h2 id="t1_testimonio"><b>Testimonials</b><div class="barra1"></div></h2>
+      <p id="texto2_servi">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+     
+
+      
+    <div id="carouselExampleIndicators" class="carousel slide d-xl-none">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active slider" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="slider" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="slider" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="slider" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="slider" aria-label="Slide 5"></button>
+        </div>
+
+      
+        <div class="container-fluid p-4 d-xl-none">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="bocadillo text-center d-block w-100">
+              <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+            </div>
+            <div class="text-center mt-4 mb-2">
+              <img src="PROYECTO/testimonios/t1.PNG" class="m-10 img-testi">
+            </div>
+            <div class="text-center mt-1 nombre-test"><b>Carla García</b></div>
+            <div class="text-center mt-1 mb-4 gris">Designer</div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="bocadillo text-center d-block w-100">
+              <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+            </div>
+            <div class="text-center mt-4 mb-2">
+              <img src="PROYECTO/testimonios/t2.PNG" class="m-10 img-testi">
+            </div>
+            <div class="text-center mt-1 nombre-test"><b>Cristian Pérez</b></div>
+            <div class="text-center mt-1 mb-4 gris">Developer</div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="bocadillo text-center d-block w-100">
+              <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+            </div>
+            <div class="text-center mt-4 mb-2">
+              <img src="PROYECTO/testimonios/t3.PNG" class="m-10 img-testi">
+            </div>
+            <div class="text-center mt-1 nombre-test"><b>Pablo Calvo</b></div>
+            <div class="text-center mt-1 mb-4 gris">Developer</div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="bocadillo text-center d-block w-100">
+              <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+            </div>
+            <div class="text-center mt-4 mb-2">
+              <img src="PROYECTO/testimonios/t4.PNG" class="m-10 img-testi">
+            </div>
+            <div class="text-center mt-1 nombre-test"><b>Pedro García</b></div>
+            <div class="text-center mt-1 mb-4 gris">Developer</div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="bocadillo text-center d-block w-100">
+              <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+            </div>
+            <div class="text-center mt-4 mb-2">
+              <img src="PROYECTO/testimonios/t5.PNG" class="m-10 img-testi">
+            </div>
+            <div class="text-center mt-1 nombre-test"><b>Antonio García</b></div>
+            <div class="text-center mt-1 mb-4 gris">Designer</div>
+          </div>
+         </div>
+      </div>
+      </div>
+  </div>
+   <!--Fin Testimonios-->
+
+   <!--Testimonios PC-->
+   <div class="row offset-md-1 offset-lg-1 offset-xl-2 mt-4 d-none d-xl-block" id="testimonios">
+    <h2 id="t1_testimonio"><b>Testimonials</b><div class="barra1"></div></h2>
+    <p id="texto2_servi">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+   
+
+    
+  <div id="carouselExample" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active slider" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" class="slider" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" class="slider" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" class="slider" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" class="slider" aria-label="Slide 5"></button>
+      </div>
+
+    
+      <div class="container-fluid p-4">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-4">
+          <div class="bocadillo text-center d-block w-100">
+            <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+          </div>
+          <div class="text-center mt-4 mb-2">
+            <img src="PROYECTO/testimonios/t1.PNG" class="m-10 img-testi">
+          </div>
+          <div class="text-center mt-1 nombre-test"><b>Carla García</b></div>
+          <div class="text-center mt-1 mb-4 gris">Designer</div>
+        </div>
+
+        <div class="col-4">
+          <div class="bocadillo text-center d-block w-100">
+            <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+          </div>
+          <div class="text-center mt-4 mb-2">
+            <img src="PROYECTO/testimonios/t2.PNG" class="m-10 img-testi">
+          </div>
+          <div class="text-center mt-1 nombre-test"><b>Cristian Pérez</b></div>
+          <div class="text-center mt-1 mb-4 gris">Developer</div>
+        </div>
+
+      
+        <div class="col-4">
+          <div class="bocadillo text-center d-block w-100">
+            <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+          </div>
+          <div class="text-center mt-4 mb-2">
+            <img src="PROYECTO/testimonios/t3.PNG" class="m-10 img-testi">
+          </div>
+          <div class="text-center mt-1 nombre-test"><b>Pablo Calvo</b></div>
+          <div class="text-center mt-1 mb-4 gris">Developer</div>
+        </div>
+        </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-4">
+          <div class="bocadillo text-center d-block w-100">
+            <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+          </div>
+          <div class="text-center mt-4 mb-2">
+            <img src="PROYECTO/testimonios/t4.PNG" class="m-10 img-testi">
+          </div>
+          <div class="text-center mt-1 nombre-test"><b>Pedro García</b></div>
+          <div class="text-center mt-1 mb-4 gris">Developer</div>
+        </div>
+
+        <div class="col-4">
+          <div class="bocadillo text-center d-block w-100">
+            <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+          </div>
+          <div class="text-center mt-4 mb-2">
+            <img src="PROYECTO/testimonios/t5.PNG" class="m-10 img-testi">
+          </div>
+          <div class="text-center mt-1 nombre-test"><b>Antonio García</b></div>
+          <div class="text-center mt-1 mb-4 gris">Designer</div>
+        </div>
+
+        <div class="col-4">
+          <div class="bocadillo text-center d-block w-100">
+            <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+          </div>
+          <div class="text-center mt-4 mb-2">
+            <img src="PROYECTO/testimonios/t1.PNG" class="m-10 img-testi">
+          </div>
+          <div class="text-center mt-1 nombre-test"><b>Carla García</b></div>
+          <div class="text-center mt-1 mb-4 gris">Designer</div>
+        </div>
+      </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-4">
+        <div class="bocadillo text-center d-block w-100">
+          <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+        </div>
+        <div class="text-center mt-4 mb-2">
+          <img src="PROYECTO/testimonios/t4.PNG" class="m-10 img-testi">
+        </div>
+        <div class="text-center mt-1 nombre-test"><b>Pedro García</b></div>
+        <div class="text-center mt-1 mb-4 gris">Developer</div>
+      </div>
+
+      <div class="col-4">
+        <div class="bocadillo text-center d-block w-100">
+          <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+        </div>
+        <div class="text-center mt-4 mb-2">
+          <img src="PROYECTO/testimonios/t5.PNG" class="m-10 img-testi">
+        </div>
+        <div class="text-center mt-1 nombre-test"><b>Antonio García</b></div>
+        <div class="text-center mt-1 mb-4 gris">Designer</div>
+      </div>
+
+      <div class="col-4">
+        <div class="bocadillo text-center d-block w-100">
+          <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+        </div>
+        <div class="text-center mt-4 mb-2">
+          <img src="PROYECTO/testimonios/t2.PNG" class="m-10 img-testi">
+        </div>
+        <div class="text-center mt-1 nombre-test"><b>Cristian Pérez</b></div>
+        <div class="text-center mt-1 mb-4 gris">Developer</div>
+      </div>
+    </div>
+    </div>
+
+    
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-4">
+      <div class="bocadillo text-center d-block w-100">
+        <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+      </div>
+      <div class="text-center mt-4 mb-2">
+        <img src="PROYECTO/testimonios/t4.PNG" class="m-10 img-testi">
+      </div>
+      <div class="text-center mt-1 nombre-test"><b>Pedro García</b></div>
+      <div class="text-center mt-1 mb-4 gris">Developer</div>
+    </div>
+
+    <div class="col-4">
+      <div class="bocadillo text-center d-block w-100">
+        <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+      </div>
+      <div class="text-center mt-4 mb-2">
+        <img src="PROYECTO/testimonios/t2.PNG" class="m-10 img-testi">
+      </div>
+      <div class="text-center mt-1 nombre-test"><b>Cristian Pérez</b></div>
+      <div class="text-center mt-1 mb-4 gris">Developer</div>
+    </div>
+
+    <div class="col-4">
+      <div class="bocadillo text-center d-block w-100">
+        <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+      </div>
+      <div class="text-center mt-4 mb-2">
+        <img src="PROYECTO/testimonios/t5.PNG" class="m-10 img-testi">
+      </div>
+      <div class="text-center mt-1 nombre-test"><b>Antonio García</b></div>
+      <div class="text-center mt-1 mb-4 gris">Designer</div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="carousel-item">
+    <div class="row">
+      <div class="col-4">
+    <div class="bocadillo text-center d-block w-100">
+      <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+    </div>
+    <div class="text-center mt-4 mb-2">
+      <img src="PROYECTO/testimonios/t4.PNG" class="m-10 img-testi">
+    </div>
+    <div class="text-center mt-1 nombre-test"><b>Pedro García</b></div>
+    <div class="text-center mt-1 mb-4 gris">Developer</div>
+  </div>
+
+  <div class="col-4">
+    <div class="bocadillo text-center d-block w-100">
+      <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+    </div>
+    <div class="text-center mt-4 mb-2">
+      <img src="PROYECTO/testimonios/t1.PNG" class="m-10 img-testi">
+    </div>
+    <div class="text-center mt-1 nombre-test"><b>Carla García</b></div>
+    <div class="text-center mt-1 mb-4 gris">Designer</div>
+  </div>
+
+  <div class="col-4">
+    <div class="bocadillo text-center d-block w-100">
+      <span><img src="icons/izquierda.png" class="quotesI"><em>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</em><img src="icons/derecha.png" class="quotesD"></span>
+    </div>
+    <div class="text-center mt-4 mb-2">
+      <img src="PROYECTO/testimonios/t3.PNG" class="m-10 img-testi">
+    </div>
+    <div class="text-center mt-1 nombre-test"><b>Pablo Calvo</b></div>
+    <div class="text-center mt-1 mb-4 gris">Developer</div>
+  </div>
+</div>
+</div>
+        </div>
+       </div>
+    </div>
+    </div>
+
+
+   <!--Fin Testimonios PC-->
+
+
+    <!--Contact-->
+    <div class="row offset-md-1 offset-lg-1 offset-xl-2  mt-4" id="contacto">
+      <h2 id="t1_contacto"><b>Contact</b><div class="barra1"></div></h2>
+      <p id="texto2_servi">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+  
+          <div class="col-lg-5">
+            <div class="info">
+              <div class="row">
+                <div class="col-2 col-sm-1 col-md-1 col-lg-2 text-justify d-flex justify-content-first">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+          
+                <div class="col-10 col-sm-11 col-md-11 col-lg-10 text-justify">
+                  <div><b>Location:</b></div>
+                  <p class="tser mb-4 mt-2">A108 Adam Street, New York, NY 535022</p>
+                </div>
+
+
+                <div class="col-2 col-sm-1 col-md-1 col-lg-2 text-justify d-flex justify-content-first">
+                  <i class="bi bi-envelope"></i>
+                </div>
+          
+                <div class="col-10 col-sm-11 col-md-11 col-lg-10 text-justify">
+                  <div><b>Email:</b></div>
+                  <p class="tser mb-4 mt-2">info@example.com</p>
+                </div>
+
+
+
+                <div class="col-2 col-sm-1 col-md-1 col-lg-2 text-justify d-flex justify-content-first">
+                  <i class="bi bi-phone"></i>
+                </div>
+          
+                <div class="col-10  col-sm-11 col-md-11 col-lg-10 text-justify">
+                  <div><b>Call:</b></div>
+                  <p class="tser mb-4 mt-2">+1 5589 55488 55s</p>
+                </div>
+
+               
+                  <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118046!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1ses!2sus!4v1700903959490!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-7">
+              <div class="formulario">
+                <form>
+                    <div class="form-group row">
+                        <div class="col-md-6">
+                          <label for="nombre" class="mb-2">Your Name</label><br>
+                          <input type="text" class="form-control mb-3" required>
+                        </div>
+            
+                        <div class="col-md-6">
+                          <label for="email" class="mb-2">Your Email</label><br>
+                          <input type="text" class="form-control mb-3" required>
+                        </div>
+                    </div>
+            
+                    <div class="form-group row">
+                        <div class="col-12">
+                          <label for="subject" class="mb-2">Subject</label><br>
+                          <input type="text" class="form-control mb-3" required>
+                        </div>
+                    </div>
+            
+                    <div class="form-group row">
+                        <div class="col-12">
+                          <label for="subject" class="mb-2">Message</label><br>
+                          <textarea class="form-control mb-3" required></textarea>
+                        </div>
+                    </div>
+            
+                    <div class="form-group row">
+                        <div class="col-12 text-center">
+                          <button type="submit" class="boton mt-1">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+            </div>
+          </div>
+    </div>
+     <!--Fin Contact-->
+
+     <!--Footer-->
+     <div class="footer fixed mt-6 d-xl-none">
+      <div class="container-fluid d-flex justify-content-end d-xl-none fixed-bottom">
+        <div>
+         <a href="#fondo"><img src="icons/arriba.png" id="flecha" ></a>
+      </div>
+    </div>
+     <!--Fin Footer-->
+         
+    </div> <!--Fin Container-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
